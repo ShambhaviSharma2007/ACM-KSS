@@ -27,34 +27,101 @@
         <option value="3">Three</option>
     </div> -->
     <div>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/2048px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png"
+        alt=""
+        height="200px"
+      />
+    </div>
+    <div>
       <form>
-        <label for="name">Name</label>
-        <input type="text" name="name" /><br />
-        <label for="email">Email</label>
-        <input type="password" name="password" /><br />
-        <label for="password">Password</label>
-        <input type="submit" value="Submit" /><br />
-        <label for="address">Address</label>
-        <textarea
-          name="address"
-          cols="40"
-          rows="5"
-        ></textarea
-        ><br />
-        <label for="checkbox">Checkbox</label>
-        <input type="checkbox" name="checkbox" /><br />
-        <label for="radio">Radio</label>
-        <input type="radio" name="radio" /><br />
-        <label for="date">Date</label>
-        <input type="date" name="date" /><br />
-        <label for="select">Select</label>
+        <label>
+          Name <input type="text" name="name" /></label
+        ><br /><br />
+        <label>
+          Email <input type="password" name="password"
+        /></label>
+        <br /><br />
+        <label>
+          Password <input type="password" value="password"
+        /></label>
+        <br /><br />
+        <label>
+          Address <input name="address" type="text"
+        /></label>
+        <br /><br />
+        <label>
+          Phone Number <input type="tel" name="phone"
+        /></label>
+        <br /><br />
+        <label
+          >Date of Birth <input type="date" name="date"
+        /></label>
+        <br /><br />
+        <label
+          >Gender<br />
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="male"
+            />
+            Male </label
+          ><br />
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+            />
+            Female </label
+          ><br />
+          <label>
+            <input
+              type="radio"
+              name="gender"
+              value="other"
+            />
+            Other
+          </label>
+        </label>
+        <br /><br />
+        <label>Select your course</label>
         <select name="select">
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option></select
+          <option value="1">B.Sc</option>
+          <option value="2">BMS</option>
+          <option value="3">BBA(FIA)</option></select
+        ><br /><br />
+        <label>Department preferences</label><br />
+        <label>
+          <input
+            type="checkbox"
+            name="department"
+            value="web"
+          />
+          Web Development </label
         ><br />
-        <label for="file">File</label>
-        <input type="file" name="file" />
+        <label>
+          <input
+            type="checkbox"
+            name="department"
+            value="designing"
+          />
+          Designing </label
+        ><br />
+        <label>
+          <input
+            type="checkbox"
+            name="department"
+            value="pr"
+          />
+          PR </label
+        ><br /><br />
+        <label>
+          Identity Proof
+          <input type="file" name="file" /></label
+        ><br /><br />
+        <button>Submit</button>
       </form>
     </div>
   </body>
